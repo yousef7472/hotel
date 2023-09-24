@@ -1,0 +1,86 @@
+.sign-box {
+  width: min-content;
+  margin: 0 auto 20px auto;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  padding: 25px 30px;
+  border-radius: 20px;
+  }
+  .forms form div:not(.MuiStack-root) {
+    margin: 4px 0;
+  }
+  .forms form .MuiStack-root{
+    margin: auto;
+  }
+  .forms form .flex input {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+  }
+  .forms p:not(.error) {
+    font-size: 13px;
+    text-align: center;
+  }
+  .forms .sign-box p:first-child {
+    padding: 20px;
+  }
+  .forms form label {
+    margin: 8px;
+  }
+  .forms form span {
+    margin-top: 10px;
+    color: crimson;
+    font-size: 13px;
+  }
+  .forms form button:not(.toggle) {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .forms form a {
+    color: blue;
+    font-size: 13px;
+  }
+  .MuiStack-root .error, .error {
+    color: red;
+    font-size: 12px;
+    text-align: left;
+    margin: 0 0 15px;
+  }
+.forgot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.forgot button a {
+  color: #fff;
+}
+.bg-sea {
+  height: 75vh;
+}
+.bg-sea img {
+  width: 100%;
+  height: 100%;
+}
+section.dash h2 {
+  font-size: 28px;
+}
+section.dash h2, p {
+  text-align: center;
+  margin: 10px 0;
+}
+section.dash .flex {
+  width: 75%;
+  margin: 45px auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.flex .card {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0 10px;
+  height: fit-content;
+  margin-top: -18%;
+}
+.flex .card img {
+  width: 100%;
+}

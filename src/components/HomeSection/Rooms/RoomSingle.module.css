@@ -1,0 +1,154 @@
+.form {
+    box-shadow: 0 10px 40px 0 rgba(50,50,50,.1);
+    padding: 50px 20px 35px;
+    margin: 50px 20px;
+}
+.form form {
+    justify-content: space-evenly;
+}
+.select:last-child {
+    text-align: center;
+    margin-top: -30px;
+}
+.select h2 {
+    font-size: 22px;
+}
+.select h5 {
+    font-size: 18px;
+    color: #687693;
+}
+.select button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #31b675;
+    color: #fff;
+    position: relative;
+    top: 10px;
+    right: 10px;
+    width: 95%;
+}
+.select span {
+    margin-bottom: 20px;
+    display: block;
+}
+.select h5 span {
+    color: #31b675;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+    display: inline-block;
+}
+@media screen and (max-width: 1200px) {
+    .select h2 {
+        font-size: 15px;
+    }   
+    .select h5 {
+        font-size: 14px;
+    }
+    .select h5 span {
+        font-size: 30px;
+    }
+    .select button {
+        font-size: 15px;
+    }
+}
+.description {
+    margin: 50px auto;
+    width: 75%;
+    padding: 0 20px;
+}
+.description h2 {
+    font-size: 35px;
+    color: #283a5e;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+.description p {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.description .wrap {
+    color: #384f7c;
+}
+.text ul li a::before, .text_one ul li a::before {
+    top: 7px;
+    content: "✓";
+    background: rgba(0,214,144,.2);
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+    color: #00d690;
+    font-size: 14px;
+    padding: 8px;
+}
+.title h2, .reviews h2 {
+    font-size: 35px;
+    color: #283a5e;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+.details .parent {
+    display: flex;
+    margin: 40px;
+}
+.details .parent .text, .text_one {
+    width: 150%;
+    z-index: 4;
+    position: relative;
+    background-color: #fff;
+    padding: 35px;
+    margin: 20px 50px;
+    box-shadow: 0 10px 40px 0 rgba(50,50,50,.1);
+}
+.details .parent .text_one {
+    margin: 0 85px 0 -100%;
+    padding: 15px 35px;
+}
+.image img {
+    width: 50vw;
+}
+/* .details .parent .img {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+} */
+.details .img img {
+    max-width: 80%;
+    min-height: 430px;
+    position: relative;
+    z-index: 1;
+}
+.details ul li a {
+    color: #283a5e;
+    display: block;
+    position: relative;
+    padding: 7px 0 7px 20px;
+    font-size: 20px;
+}
+
+.reviews .review {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    margin: 0 0 10% 0;
+}
+.reviews .review .content {
+    padding: 10px 35px;
+}
+.reviews .content h3 {
+    font-size: 22px;
+    color: #283a5e;
+    font-weight: 700;
+    margin: 0 25px 25px 0;
+}
+.reviews .content p {
+    line-height: 35px;
+    padding-right: 35px;
+}
+.reviews .review img {
+    width: 300px;
+    border-radius: 10%;
+}

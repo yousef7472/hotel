@@ -1,0 +1,40 @@
+.heading {
+    /* height: 50vh; */
+    position: relative;
+    z-index: -2;
+    width: 80%;
+    margin: auto;
+  }
+  .heading .container {
+    position: absolute;
+    top: 50%;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .heading h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    height: 15vh;
+    color: #fff;
+  }
+  .heading button {
+    color: white;
+    font-weight: 400;
+    padding: 5px 30px;
+    word-spacing: 5px;
+  }
+  .heading a {
+    color: #31b675;
+    cursor: pointer;
+  }
+  .heading span {
+    text-transform: capitalize;
+    word-spacing: 30px;
+  }
+.background img {
+  min-width: 100%;
+  max-height: 60vh;
+}
