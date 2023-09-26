@@ -1,7 +1,7 @@
 {
   "name": "hotel",
   "version": "0.1.0",
-  "homepage": "https://yousef7472.github.io/react-gh-pages",
+  "homepage": "https://yousef7472.github.io/hotel",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
