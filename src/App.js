@@ -29,11 +29,11 @@ function App() {
   // const location = useLocation();
   const router = createBrowserRouter([
     {
-      path: '/hotel',
+      path: '/',
       element: <RootLayout />,
       errorElement: <ErrorPage />,
       children: [
-        { path: '/hotel', element: <Home /> },
+        { path: '/', element: <Home /> },
         { path: '/about', element: <About /> },
         { path: '/gallery', element: <Gallery /> },
         { path: '/destination', element: <Destination /> },
